@@ -3,3 +3,24 @@ document.addEventListener('DOMContentLoaded', () => {
     console.log('Hello from main.js!');
     alert('JavaScript is linked successfully!');
 });
+// main.js
+
+// Part 1: Data Types
+
+// Create variables of different data types
+let stringVar = "Hello, World!";         // String
+let numberVar = 42;                     // Number
+let booleanVar = true;                  // Boolean
+let nullVar = null;                     // Null
+let undefinedVar;                       // Undefined
+let objectVar = { key: "value" };       // Object
+let symbolVar = Symbol("description");  // Symbol
+
+// Print these variables to the console
+console.log("String Variable: ", stringVar);
+console.log("Number Variable: ", numberVar);
+console.log("Boolean Variable: ", booleanVar);
+console.log("Null Variable: ", nullVar);
+console.log("Undefined Variable: ", undefinedVar);
+console.log("Object Variable: ", objectVar);
+console.log("Symbol Variable: ", symbolVar);
