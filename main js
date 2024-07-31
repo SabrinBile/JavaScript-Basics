@@ -66,3 +66,29 @@ console.log("Sum of All Numbers: ", sum);
 console.log("Numbers in Array:");
 numbers.forEach(num => console.log(num));
 g("Symbol Variable: ", symbolVar);
+// Part 3: Functions
+
+// 1. Create a function named greet that takes a name parameter and prints a greeting message to the console
+function greet(name) {
+    console.log(`Hello, ${name}! Welcome to the JavaScript Basics Assignment.`);
+}
+
+// Example usage of the greet function
+greet("Alice");
+
+// 2. Create a function named sumArray that takes an array of numbers as a parameter and returns the sum of all elements
+function sumArray(numbers) {
+    return numbers.reduce((accumulator, num) => accumulator + num, 0);
+}
+
+// Example usage of the sumArray function
+let numbersArray = [5, 8, 12, 15, 22, 7, 3];
+console.log("Sum of Array: ", sumArray(numbersArray));
+
+// 3. Create a function named findMax that takes an array of numbers as a parameter and returns the maximum number
+function findMax(numbers) {
+    return Math.max(...numbers);
+}
+
+// Example usage of the findMax function
+console.log("Maximum Number: ", findMax(numbersArray));
